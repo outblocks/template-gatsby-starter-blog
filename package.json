@@ -3,7 +3,7 @@
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "{{ .author.name }} <{{ .author.email }}>",
+  "author": "{{ or .author.name `Author Name` }} <{{ or .author.email `email@example.com` }}>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },

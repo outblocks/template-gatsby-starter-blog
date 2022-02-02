@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `{{ .blog.name }}`,
     author: {
-      name: `{{ .author.name }}`,
+      name: `{{ or .author.name "Author Name" }}`,
       // summary: `who lives and works in San Francisco building useful things.`,
     },
     description: `{{ .blog.description }}`,
