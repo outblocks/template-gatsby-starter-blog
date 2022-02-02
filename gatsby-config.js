@@ -6,7 +6,7 @@ module.exports = {
       // summary: `who lives and works in San Francisco building useful things.`,
     },
     description: `{{ .blog.description }}`,
-    siteUrl: `https://{{ .blog.domain }}/`,
+    siteUrl: `https://${process.env.SITE_URL}/`,
     social: {
       // twitter: `kylemathews`,
     },

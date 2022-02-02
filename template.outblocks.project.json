@@ -11,7 +11,7 @@
                     "title": "Name",
                     "description": "Project author name"
                 },
-                "details": {
+                "email": {
                     "type": "string",
                     "title": "Email",
                     "description": "Project author email"
