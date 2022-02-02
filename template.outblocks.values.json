@@ -1,0 +1,20 @@
+{
+    "title": "Gatsby Starter Blog Values",
+    "type": "object",
+    "properties": {
+        "blog": {
+            "type": "object",
+            "title": "Blog",
+            "required": [
+                "domain"
+            ],
+            "properties": {
+                "domain": {
+                    "type": "string",
+                    "title": "Domain",
+                    "default": "gatsbystarterblogsource.gatsbyjs.io"
+                }
+            }
+        }
+    }
+}

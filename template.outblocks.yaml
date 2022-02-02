@@ -1,0 +1,4 @@
+type: project
+template_files:
+  - 'gatsby-config.js'
+  - 'package.json'

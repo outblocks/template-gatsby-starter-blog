@@ -1,0 +1,13 @@
+name: gatsby-blog
+url: ${var.blog_domain}
+type: static
+
+build:
+  command: npm i && npm build
+  dir: build
+
+run:
+  command: npm i && npm develop
+  port: 8000
+
+routing: gatsby

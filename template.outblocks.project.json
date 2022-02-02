@@ -1,0 +1,38 @@
+{
+    "title": "Gatsby Starter Blog",
+    "type": "object",
+    "properties": {
+        "author": {
+            "type": "object",
+            "title": "Author",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "title": "Name",
+                    "description": "Project author name"
+                },
+                "details": {
+                    "type": "string",
+                    "title": "Email",
+                    "description": "Project author email"
+                }
+            }
+        },
+        "blog": {
+            "type": "object",
+            "title": "Blog",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "title": "Name",
+                    "default": "Gatsby Starter Blog"
+                },
+                "description": {
+                    "type": "string",
+                    "title": "Description",
+                    "default": "A starter blog demonstrating what Outblocks+Gatsby can do."
+                }
+            }
+        }
+    }
+}
