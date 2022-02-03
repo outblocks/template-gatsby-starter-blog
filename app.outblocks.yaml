@@ -6,11 +6,11 @@ env:
   SITE_URL: ${var.blog_domain}
 
 build:
-  command: npm i && npm build
+  command: npm i && npm run build
   dir: build
 
 run:
-  command: npm i && npm develop
+  command: npm i && npm run develop
   port: 8000
 
 routing: gatsby
